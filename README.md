@@ -1,4 +1,4 @@
-[Clone of reveal.js](http://lab.hakim.se/reveal-js/).
+A clone of [reveal.js](http://lab.hakim.se/reveal-js/).
 
 ## License
 

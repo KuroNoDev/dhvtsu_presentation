@@ -3,250 +3,170 @@
 
 	<head>
 		<meta charset="utf-8">
-
 		<title>Guide to awesome programming</title>
-
-		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
-		<meta name="author" content="Hakim El Hattab">
-
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css" id="theme">
-
-		<!-- Code syntax highlighting -->
+        <link rel="stylesheet" href="css/app.css">
+        <link rel="stylesheet" href="css/theme/night.css" id="theme">
 		<link rel="stylesheet" href="lib/css/zenburn.css">
-
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-
-		<!--[if lt IE 9]>
-		<script src="lib/js/html5shiv.js"></script>
-		<![endif]-->
 	</head>
 
-	<body>
+	<body id="body">
+        <div class="toro-io">
+            <a href="https://www.toro.io/" target="_blank" class="toro-io-heading">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 4547 1225.844">
+                    <path id="T" class="cls-1" d="M221.157,153.293H-7.539V1H615.193V153.293H386.5V751.742H221.157V153.293Z" transform="translate(0 -0.156)" />
+                    <path id="O" class="cls-1" d="M1164.92,2.393c-0.23-.067-0.43-0.163-0.66-0.227-0.33-.094-0.65-0.125-0.99-0.211-1.03-.258-2.04-0.56-3.08-0.814l-0.03.155c-14.46-2.705-27.35,1.616-29.74,10.573-2.6,9.755,8.18,21.2,24.09,25.712v0.151c112.87,39.818,193.8,147.315,193.8,273.868,0,160.453-130.01,290.53-290.38,290.53S767.551,472.053,767.551,311.6c0-126.553,80.935-234.054,193.8-273.872l-0.06-.094,0-.026c15.721-4.454,26.329-15.666,23.723-25.258-2.629-9.687-17.74-14.023-33.746-9.672a49.2,49.2,0,0,0-4.886,1.653C779.068,50.389,666.2,197.239,666.2,370.327v2.111c0,209.667,163.222,379.3,390.7,379.3,227.45,0,392.77-171.737,392.77-381.411v-2.1C1449.66,192.884,1335.34,45.909,1164.92,2.393Z"
+                            transform="translate(0 -0.156)" />
+                    <path id="R" class="cls-1" d="M1530.66,0.837h343.13c95.44,0,169.43,26.816,218.75,76.148,41.81,41.83,64.33,100.807,64.33,171.594v2.149c0,121.19-65.4,197.331-160.83,232.721l183.35,268.125H1986.38L1825.53,511.335H1695.79V751.574H1530.66V0.837Zm332.41,364.649c80.42,0,126.53-42.9,126.53-106.176v-2.142c0-70.787-49.32-107.262-129.75-107.262H1695.79v215.58h167.28Z"
+                            transform="translate(0 -0.156)" />
+                    <path id="O-2" data-name="O" class="cls-1" d="M2747.54,2.744c-0.22-.067-0.42-0.163-0.65-0.227-0.34-.095-0.66-0.125-0.99-0.212-1.03-.257-2.04-0.56-3.08-0.813l-0.03.155c-14.46-2.7-27.33,1.615-29.72,10.567-2.6,9.75,8.17,21.193,24.07,25.7v0.151c112.8,39.8,193.69,147.232,193.69,273.713,0,160.361-129.93,290.363-290.2,290.363s-290.2-130-290.2-290.363c0-126.481,80.88-233.921,193.68-273.716l-0.06-.095V37.937c15.71-4.451,26.31-15.657,23.7-25.243-2.62-9.681-17.72-14.015-33.72-9.666a48.739,48.739,0,0,0-4.88,1.652c-167.21,46.032-280.02,192.8-280.02,365.787v2.11c0,209.547,163.12,379.083,390.45,379.083,227.31,0,392.53-171.639,392.53-381.193v-2.1C3032.11,193.125,2917.86,46.234,2747.54,2.744Z"
+                            transform="translate(0 -0.156)" />
+                    <circle id="_." data-name="." class="cls-2" cx="3190.91" cy="670.938" r="81.25" />
+                    <rect id="I" class="cls-2" x="3338.84" y="0.188" width="166.66" height="750" />
+                    <path id="O-3" data-name="O" class="cls-1" d="M4077,2.744c-0.23-.067-0.43-0.163-0.65-0.227-0.34-.095-0.66-0.125-1-0.212-1.03-.257-2.04-0.56-3.08-0.813l-0.02.155c-14.46-2.7-27.34,1.615-29.72,10.567-2.61,9.75,8.17,21.193,24.07,25.7v0.151c112.8,39.8,193.68,147.232,193.68,273.713,0,160.361-129.93,290.363-290.2,290.363s-290.2-130-290.2-290.363c0-126.481,80.89-233.921,193.69-273.716l-0.06-.095-0.01-.026c15.71-4.451,26.32-15.657,23.71-25.243-2.63-9.681-17.73-14.015-33.72-9.666a48.931,48.931,0,0,0-4.89,1.652c-167.21,46.032-280.01,192.8-280.01,365.787v2.11c0,209.547,163.12,379.083,390.45,379.083,227.31,0,392.53-171.639,392.53-381.193v-2.1C4361.57,193.125,4247.32,46.234,4077,2.744Z"
+                            transform="translate(0 -0.156)" />
+                    <path id="TM" class="cls-1" d="M4412.19,14.787h-23.61V0.161h64.55V14.787h-23.61V79.256h-17.33V14.787Zm49.94-14.626h24.38l18.43,54.4h0.24l17.42-54.4h24.39v79.1h-16.23V23.2h-0.22l-19.3,56.051h-13.36l-19.3-55.495h-0.22V79.256h-16.23V0.161Z" transform="translate(0 -0.156)"
+                    />
+                </svg>
+            </a>
+        </div>
         <div class="reveal">
             <div class="slides">
-    <section class="" data-id="d46fdf2cf72abda01e378b029b8647d2">
-        <br/>
-        <font style="font-size: 54px;">
-            <b>GUIDE TO AWESOME 
-                <br/>PROGRAMMING
-            </b>
-        </font>
-        <br/>
-    </section>
-    <section data-id="3b0eba3ba91e135035267ce45c9834fe" class="">
-        <h2>
-            <br/>
-        </h2>
-        <h2>Step 1</h2>
-        <p>
-            <br/>
-        </p>
-        <blockquote>
-            <p>"How many languages do you speak"</p>
-        </blockquote>
-        <br/>
-    </section>
-    <section data-id="c5aa1c3f75efc4954a8af4c8bf6f4f3e" class="">
-        <br/>
-        <img style="width: 925px; height: 213.304px; max-height: none; max-width: none;" src="https://s3.amazonaws.com/media-p.slid.es/uploads/454243/images/2252306/the-core.JPG"/>
-        <br/>
-        <div align="center">&nbsp;&nbsp;&nbsp; The Core (2013)
-            <br/>
-        </div>
-    </section>
-    <section data-id="0816177c84f3a09cbffdba02fb4d533c" class="">
-        <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/454243/images/2252470/info1.JPG"/>
-        <br/>
-    </section>
-    <section data-id="3bb85574c2deed0426a15c9519394799" class="">
-        <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/454243/images/2252505/info2.JPG"/>
-        <br/>
-    </section>
-    <section data-id="088ff55738cd9d81c52222f76dba4b50" class="">
-        <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/454243/images/2252507/info3.JPG"/>
-        <br/>
-        <font style="font-size: 18px;">(source: http://carlcheo.com/startcoding)</font>
-        <br/>
-    </section>
-    <section data-id="2078afacb94debed6d45075bb23b6343" class="">
-        <h2>
-            <br/>
-        </h2>
-        <h2>STEP 2</h2>
-        <br/>
-        <blockquote>Apply what you have learned
-            <br/>
-        </blockquote>
-        <br/>
-    </section>
-    <section data-id="d6340c7bc11637abf5a48b2799d3546c" class="">
-        <br/>
-        <ul>
-            <li data-fragment-index="0" class="fragment">Do non-stop programming</li>
-        </ul>
-        <br/>
-        <br/>
-        <ul>
-            <li data-fragment-index="1" class="fragment">Take part in programming competitions</li>
-        </ul>
-        <br/>
-        <br/>
-        <ul>
-            <li data-fragment-index="2" class="fragment">Concentrate on learning
-                <br/>
-            </li>
-        </ul>
-    </section>
-    <section data-id="33b170dbc1e02996b6a4e4b8a7db9ebd" class="">
-        <h2>
-            <br/>
-        </h2>
-        <h2>step 3</h2>
-        <p>
-            <br/>
-        </p>
-        <blockquote>
-            <p>Take it to the next level
-                <br/>
-            </p>
-        </blockquote>
-        <br/>
-    </section>
-    <section data-id="4ce22faa8aefedc68a7c58bb9e492dd4" class="">
-        <h2>
-            <br/>
-        </h2>
-        <p>
-            <br/>
-        </p>
-        <ul>
-            <li>Start creating your own project or do some 
-                <br/>
-                <div align="center">&nbsp;&nbsp; collaboration</div>
-            </li>
-        </ul>
-        <p>
-            <br/>
-        </p>
-        <ul>
-            <li>Do some freelancing</li>
-        </ul>
-        <p>
-            <br/>
-        </p>
-        <br/>
-    </section>
-    <section data-id="b570732a02add5ff72e0a9bc888bddc8" class="">
-        <h2>
-            <br/>
-        </h2>
-        <h2>step 4</h2>
-        <p>
-            <br/>
-        </p>
-        <blockquote>
-            <p>Do not reinvent the wheel
-                <br/>
-            </p>
-        </blockquote>
-        <br/>
-    </section>
-    <section data-id="16c231b79807dc6fa2041e24e793c89c" class="stack">
-        <section data-id="8f7956d8f0eb89765fda5dc8fd6d3b52" class="">
-            <p>
-                <br/>
-            </p>
-            <ul>
-                <li>&nbsp;Try to re-use codes as much as possible</li>
-            </ul>
-            <p>
-                <br/>
-            </p>
-            <ul>
-                <li>Make use of available libraries</li>
-            </ul>
-            <p>
-                <br/>
-            </p>
-            <ul>
-                <li>Start using frameworks
+                <section>
                     <br/>
-                </li>
-            </ul>
-            <h2>
-                <br/>
-            </h2>
-        </section>
-        <section data-id="c09924cc712b33b6280ffd30dec3eeb4" class="">
-            <h2>Framework</h2>
-            <blockquote style="position: absolute; width: 100%; height: 600px; z-index: 4; left: 15px; top: 89px; max-height: none; max-width: none;" class="absolute-element">
-                <span class="inline_editor_value">
-                    <span class="rendered_qtext">If I tell
- you to cut a piece of paper with dimensions 5m by 5m then surely you 
-would do that. But then I ask you to cut 1000 pieces of paper of the 
-same dimensions. Then you won't do the measuring 1000 times, obviously 
-you would make a frame of 5m by 5m and then with the help of it you 
-would be able to cut 1000 papers in less time. So, what you did is made a
- framework which would do that type of task. So, instead of performing 
-the same type of task again and again for the same type of applications,
- what you do is create a framework having all those facilities together 
-in one nice packet, hence providing the abstraction for your application
- and more importantly many applications
+                    <font style="font-size: 75px;">
+                        <b>GUIDE TO AWESOME 
+                            <br/>PROGRAMMING
+                        </b>
+                    </font>
+                    <br/>
+                </section>
+                <section>
+                    <h2 style="font-size: 75px;">Step 1</h2><br/>
+                    <blockquote>
+                        <p style="font-size: 40px;">"How many languages do you speak"</p>
+                    </blockquote>
+                    <br/>
+                </section>
+                <section>
+                    <br/>
+                    <img style="width: 925px; height: 213.304px; max-height: none; max-width: none;" src="lib/assets/the-core.JPG"/>
+                    <br/>
+                    <div align="center">&nbsp;&nbsp;&nbsp; The Core (2013)
                         <br/>
-                    </span>
-                </span>
-            </blockquote>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <font class="absolute-element" style="font-size: 24px; position: absolute; width: 957px; height: 48px; z-index: 4; left: -1px; top: 750px; max-height: none; max-width: none;">(source: 
-                <span class="feed_item_answer_user">
-                    <span id="ld_mfritx_60898">
-                        <a target="_blank" class="user" href="https://www.quora.com/profile/Ritesh-Yadav-5" id="__w2_qiTeSuh_link">Ritesh Yadav</a>, on Quora, "Why are programming frameworks used" ) 
-                    </span>
-                </span>
-            </font>
-        </section>
-        <section data-id="dc226eba7b9510243039c8da5bdcd8c0" class="">
-            <h2>Spring - Java</h2>
-            <p>
-                <br/>
-            </p>
-            <h2>AngularJS, Node.js - Javascript</h2>
-            <p>
-                <br/>
-            </p>
-            <h2>Laravel - PHP</h2>
-            <h2>
-                <br/>
-            </h2>
-            <h2>Rails (Ruby on Rails) - Ruby</h2>
-        </section>
-    </section>
-</div>
+                    </div>
+                </section>
+                <section>
+                    <img src="lib/assets/info1.JPG"/>
+                    <br/>
+                    <font style="font-size: 18px;">(source: http://carlcheo.com/startcoding)</font>
+                </section>
+                <section>
+                    <img src="lib/assets/info2.JPG"/>
+                </section>
+                <section>
+                    <img src="lib/assets/info3.JPG"/>
+                </section>
+                <section>
+                    <h2 style="font-size: 75px;">Step 2</h2><br/>
+                    <blockquote>
+                        <p style="font-size: 40px;">Apply what you have learned</p><br/>
+                    </blockquote>
+                    <br/>
+                </section>
+                <section>
+                    <ul>
+                        <li data-fragment-index="0" class="fragment" style="font-size: 45px;">Do non-stop programming</li>
+                    </ul>
+                    <br/><br/>
+                    <ul>
+                        <li data-fragment-index="1" class="fragment" style="font-size: 45px;">Take part in programming competitions</li>
+                    </ul>
+                    <br/><br/>
+                    <ul>
+                        <li data-fragment-index="2" class="fragment" style="font-size: 45px;">Concentrate on learning
+                            <br/>
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <h2 style="font-size: 75px;">Step 3</h2><br/>
+                    <blockquote>
+                        <p style="font-size: 40px;">Take it to the next level<br/></p>
+                    </blockquote>
+                    <br/>
+                </section>
+                <section>
+                    <br/>
+                    <ul>
+                        <li data-fragment-index="0" class="fragment" style="font-size: 45px;">Start creating your own project or do some 
+                            <br/>
+                            <div align="center">&nbsp;&nbsp; collaboration</div>
+                        </li>
+                    </ul>
+                    <br/><br/>
+                    <ul>
+                        <li data-fragment-index="1" class="fragment" style="font-size: 45px;">Do some freelancing</li>
+                    </ul>
+                    <br/><br/>
+                </section>
+                <section>
+                    <br/>
+                    <h2 style="font-size: 75px;">Step 4</h2><br/>
+                    <blockquote>
+                        <p style="font-size: 40px;">Following code practices<br/></p>
+                    </blockquote>
+                    <br/>
+                </section>
+                <section class="stack">
+                    <section>
+                        <br/>
+                        <ul>
+                            <li data-fragment-index="0" class="fragment" style="font-size: 40px;">&nbsp;Try to re-use codes as much as possible</li>
+                        </ul><br/><br/>
+                        <ul>
+                            <li data-fragment-index="1" class="fragment" style="font-size: 40px;">Make use of available libraries</li>
+                        </ul><br/><br/>
+                        <ul>
+                            <li data-fragment-index="2" class="fragment" style="font-size: 40px;">Start using frameworks<br/></li>
+                        </ul><br/>
+                    </section>
+                    <section>
+                        <h2>Framework</h2>
+                        <blockquote style="position: absolute; width: 100%; height: 600px; z-index: 4; left: 15px; top: 89px; max-height: none; max-width: none;" class="absolute-element">
+                            <span class="inline_editor_value">
+                                <span class="rendered_qtext">If I tell
+                                     you to cut a piece of paper with dimensions 5m by 5m then surely you 
+                                    would do that. But then I ask you to cut 1000 pieces of paper of the 
+                                    same dimensions. Then you won't do the measuring 1000 times, obviously 
+                                    you would make a frame of 5m by 5m and then with the help of it you 
+                                    would be able to cut 1000 papers in less time. So, what you did is made a
+                                     framework which would do that type of task. So, instead of performing 
+                                    the same type of task again and again for the same type of applications,
+                                     what you do is create a framework having all those facilities together 
+                                    in one nice packet, hence providing the abstraction for your application
+                                     and more importantly many applications
+                                    <br/>
+                                    <br/>
+                                    <br/>
+                                    <br/>
+                                    (source:
+                                    <a target="_blank" class="user" href="https://www.quora.com/profile/Ritesh-Yadav-5" id="__w2_qiTeSuh_link">Ritesh Yadav</a>, on Quora, "Why are programming frameworks used" )
+                                </span>
+                            </span>
+                        </blockquote>
+                    </section>
+                    <section>
+                        <h2>Spring - Java</h2><br/>
+                        <h2>AngularJS, Node.js - Javascript</h2><br/>
+                        <h2>Laravel - PHP</h2><br/>
+                        <h2>Rails (Ruby on Rails) - Ruby</h2>
+                    </section>
+                </section>
+            </div>
 
         </div>
 

@@ -3,7 +3,7 @@
 
 	<head>
 		<meta charset="utf-8">
-		<title>Guide to awesome programming</title>
+		<title>How to code</title>
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -11,6 +11,38 @@
         <link rel="stylesheet" href="css/app.css">
         <link rel="stylesheet" href="css/theme/night.css" id="theme">
 		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<style media="screen">
+			.reveal pre {
+				margin: 0 auto;
+				box-shadow: none;
+			}
+			.reveal pre code {
+				overflow: initial;
+			}
+			img {
+				border: 0 !important;
+				max-width: 500px !important;
+			}
+			.resource-img {
+				display: inline-block;
+				width: 280px;
+				height: 100px;
+				margin-right: 5px !important;
+			}
+			.organized {
+				width: 500px;
+			}
+			.fragment.current-visible.visible:not(.current-fragment) {
+		    display: none;
+		    height:0px;
+		    line-height: 0px;
+		    font-size: 0px;
+			}
+			li {
+				margin-bottom: 10px !important;
+			}
+		</style>
 	</head>
 
 	<body id="body">
@@ -36,138 +68,137 @@
         <div class="reveal">
             <div class="slides">
                 <section>
-                    <br/>
-                    <font style="font-size: 75px;">
-                        <b>GUIDE TO AWESOME 
-                            <br/>PROGRAMMING
-                        </b>
-                    </font>
-                    <br/>
+                    <h1>How to code</h1>
+										<h4 class="fragment">while making everyone happy</h4>
                 </section>
-                <section>
-                    <h2 style="font-size: 75px;">Step 1</h2><br/>
-                    <blockquote>
-                        <p style="font-size: 40px;">"How many languages do you speak"</p>
-                    </blockquote>
-                    <br/>
-                </section>
-                <section>
-                    <br/>
-                    <img style="width: 925px; height: 213.304px; max-height: none; max-width: none;" src="lib/assets/the-core.JPG"/>
-                    <br/>
-                    <div align="center">&nbsp;&nbsp;&nbsp; The Core (2013)
-                        <br/>
-                    </div>
-                </section>
-                <section>
-                    <img src="lib/assets/info1.JPG"/>
-                    <br/>
-                    <font style="font-size: 18px;">(source: http://carlcheo.com/startcoding)</font>
-                </section>
-                <section>
-                    <img src="lib/assets/info2.JPG"/>
-                </section>
-                <section>
-                    <img src="lib/assets/info3.JPG"/>
-                </section>
-                <section>
-                    <h2 style="font-size: 75px;">Step 2</h2><br/>
-                    <blockquote>
-                        <p style="font-size: 40px;">Apply what you have learned</p><br/>
-                    </blockquote>
-                    <br/>
-                </section>
-                <section>
-                    <ul>
-                        <li data-fragment-index="0" class="fragment" style="font-size: 45px;">Do non-stop programming</li>
-                    </ul>
-                    <br/><br/>
-                    <ul>
-                        <li data-fragment-index="1" class="fragment" style="font-size: 45px;">Take part in programming competitions</li>
-                    </ul>
-                    <br/><br/>
-                    <ul>
-                        <li data-fragment-index="2" class="fragment" style="font-size: 45px;">Concentrate on learning
-                            <br/>
-                        </li>
-                    </ul>
-                </section>
-                <section>
-                    <h2 style="font-size: 75px;">Step 3</h2><br/>
-                    <blockquote>
-                        <p style="font-size: 40px;">Take it to the next level<br/></p>
-                    </blockquote>
-                    <br/>
-                </section>
-                <section>
-                    <br/>
-                    <ul>
-                        <li data-fragment-index="0" class="fragment" style="font-size: 45px;">Start creating your own project or do some 
-                            <br/>
-                            <div align="center">&nbsp;&nbsp; collaboration</div>
-                        </li>
-                    </ul>
-                    <br/><br/>
-                    <ul>
-                        <li data-fragment-index="1" class="fragment" style="font-size: 45px;">Do some freelancing</li>
-                    </ul>
-                    <br/><br/>
-                </section>
-                <section>
-                    <br/>
-                    <h2 style="font-size: 75px;">Step 4</h2><br/>
-                    <blockquote>
-                        <p style="font-size: 40px;">Following code practices<br/></p>
-                    </blockquote>
-                    <br/>
-                </section>
-                <section class="stack">
-                    <section>
-                        <br/>
-                        <ul>
-                            <li data-fragment-index="0" class="fragment" style="font-size: 40px;">&nbsp;Try to re-use codes as much as possible</li>
-                        </ul><br/><br/>
-                        <ul>
-                            <li data-fragment-index="1" class="fragment" style="font-size: 40px;">Make use of available libraries</li>
-                        </ul><br/><br/>
-                        <ul>
-                            <li data-fragment-index="2" class="fragment" style="font-size: 40px;">Start using frameworks<br/></li>
-                        </ul><br/>
-                    </section>
-                    <section>
-                        <h2>Framework</h2>
-                        <blockquote style="position: absolute; width: 100%; height: 600px; z-index: 4; left: 15px; top: 89px; max-height: none; max-width: none;" class="absolute-element">
-                            <span class="inline_editor_value">
-                                <span class="rendered_qtext">If I tell
-                                     you to cut a piece of paper with dimensions 5m by 5m then surely you 
-                                    would do that. But then I ask you to cut 1000 pieces of paper of the 
-                                    same dimensions. Then you won't do the measuring 1000 times, obviously 
-                                    you would make a frame of 5m by 5m and then with the help of it you 
-                                    would be able to cut 1000 papers in less time. So, what you did is made a
-                                     framework which would do that type of task. So, instead of performing 
-                                    the same type of task again and again for the same type of applications,
-                                     what you do is create a framework having all those facilities together 
-                                    in one nice packet, hence providing the abstraction for your application
-                                     and more importantly many applications
-                                    <br/>
-                                    <br/>
-                                    <br/>
-                                    <br/>
-                                    (source:
-                                    <a target="_blank" class="user" href="https://www.quora.com/profile/Ritesh-Yadav-5" id="__w2_qiTeSuh_link">Ritesh Yadav</a>, on Quora, "Why are programming frameworks used" )
-                                </span>
-                            </span>
-                        </blockquote>
-                    </section>
-                    <section>
-                        <h2>Spring - Java</h2><br/>
-                        <h2>AngularJS, Node.js - Javascript</h2><br/>
-                        <h2>Laravel - PHP</h2><br/>
-                        <h2>Rails (Ruby on Rails) - Ruby</h2>
-                    </section>
-                </section>
-            </div>
 
+								<section>
+									<section>
+										<h3>Make it work but</h3>
+										<h4 class="fragment">don't hack your way through it</h4>
+									</section>
+
+									<section>
+										<h3>Hacking out the code</h3>
+										<h4 class="fragment">
+											<i>to quickly create a solution that produces at least one correct result for whatever situation you are seeing right now, but is not guaranteed</i>
+										</h4>
+<pre class="fragment"><code contenteditable="">if( checkAvailability() == true ) {
+  continue();
+}
+
+function checkAvailabilty() {
+  // validation codes here
+
+  return result;
+}
+
+function continue() {
+  // codes here
+}
+</code></pre>
+									</section>
+
+									<section>
+										<img src="/lib/assets/bug.jpg" /><br>
+										<i>thanks for nothing</i>
+									</section>
+								</section>
+
+								<section>
+									<h3>Make sure it really is "working"</h3>
+								</section>
+
+								<section>
+									<h3>Make your life easier</h3>
+									<section>
+										<h4 class="fragment">Take a look around you</h4>
+										<div style="text-alignment: center;">
+											<img src="/lib/assets/codepen.jpeg" class="fragment resource-img" />
+											<img src="/lib/assets/github.png" class="fragment resource-img" />
+											<img src="/lib/assets/google.png" class="fragment resource-img" />
+										</div>
+									</section>
+
+									<section>
+										<br><br><img src="/lib/assets/last resort.jpg" /><br>
+										<i>it's like trying to solve a math problem without knowing the formula</i>
+									</section>
+
+									<section>
+										<ul>
+											<li class="">Understand the concept first</li>
+											<li class="fragment">Take your time reading the documentation</li>
+										</ul>
+									</section>
+								</section>
+
+								<section>
+									<section>
+										<h3>Make their life easier, yours included</h3>
+									</section>
+									<section>
+										<h4>Organize your files</h4>
+										<img src="/lib/assets/organized.png" class="organized" />
+									</section>
+									<section>
+										<img src="/lib/assets/it was me.jpg" /><br>
+										<i>but take note that time machine doesn't exist yet</i>
+									</section>
+									<section>
+										<img src="/lib/assets/wow.jpg" /><br>
+										<i>Don't you want to be that guy?</i>
+									</section>
+									<section>
+										<h4>Follow the coding standards</h4>
+										<ul>
+											<li class="fragment">A coding standards document tells developers how they must write their code</li>
+											<li class="fragment">Instead of each developer coding in their own preferred style, they will write all code to the standards outlined in the document</li>
+											<li class="fragment">This makes sure that a large project is coded in a consistent style — parts are not written differently by different programmers</li>
+											<li class="fragment">Not only does this solution make the code easier to understand, it also ensures that any developer who looks at the code will know what to expect throughout the entire application</li>
+										</ul>
+									</section>
+									<section>
+										<img src="/lib/assets/var1.jpg" /><br>
+										<i>make your codes 'self-documenting'</i>
+									</section>
+									<section>
+										<h4>Self-documenting codes</h4>
+										<pre><code>// not like this
+var var1;
+var var2;
+
+// like this
+var allowedCountries;
+
+// not like this
+var countriesThatAreAllowedForStreaming;
+
+// like this
+function allowCountry() {
+  ...
+}
+</code></pre>
+									</section>
+									<section>
+										<img src="/lib/assets/self doc.jpg" style="max-height: 560px;" /><br>
+										<i>but that's not enough</i>
+									</section>
+									<section>
+										<h4>Document your work</h4>
+										<a class="fragment" href="https://github.com/hakimel/reveal.js/blob/master/README.md" target="blank">reveal.js documentation</a>
+									</section>
+								</section>
+
+								<section>
+									<h3>That's all</h3>
+									<img src="/lib/assets/wuf.jpg" height="440" />
+									<p style="
+									margin: -20px 0 0 0;
+									font-style: italic;
+									font-size: 20px;">peace yo</p>
+								</section>
+            </div>
         </div>
 
 		<script src="lib/js/head.min.js"></script>
